@@ -1,0 +1,27 @@
+.grid-container3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container3 > div{
+    width: 25vw;
+    height: 30vw;
+    padding: 15px;
+    margin: 15px;
+    border: 3px solid black;
+}
+
+.plano{
+    background-color: aqua;
+}
+
+.gradiente{
+    background: linear-gradient(to right, red, blue);
+}
+
+.imagen{
+    background-image: url(https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95c3a34f9.png);
+}
